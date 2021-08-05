@@ -1,4 +1,6 @@
+// Importa logo de react
 import logo from './logo.svg';
+// Importar el archivod de estilos
 import './App.css';
 
 function App() {
@@ -7,17 +9,24 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Mi primer página web con React.js
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a href="https://es.reactjs.org/docs/getting-started.html">
+          Iniciando con React
         </a>
       </header>
+      <main>
+        <section>
+          <h1>Hola mundo</h1>
+          lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        </section>
+      </main>
     </div>
   );
 }
